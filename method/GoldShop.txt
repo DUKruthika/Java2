@@ -1,0 +1,17 @@
+class GoldShop{
+static String goldJewellerys[]={null,null,null,null,null,null,null};
+static int index;
+public static boolean addGoldJewellerys(String goldJewellery){
+boolean isGoldJewlleryAdded=false;
+if(goldJewellery!=null){
+      goldJewellerys[index++]=goldJewellery;
+	  isGoldJewlleryAdded=true
+}
+return isGoldJewlleryAdded;
+}
+public static void getGoldJewellery(){
+for(String goldJewellery:goldJewellerys)
+System.out.println(goldJewellery);
+}
+
+}

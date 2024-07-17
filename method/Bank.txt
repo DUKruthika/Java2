@@ -1,0 +1,13 @@
+class BankAccountRunner{
+public static void main(String[] money){
+balance.credit(1000.00);
+double value=balance.getBalance();
+System.out.println(value);
+  balance.credit(2000.00);
+  value=balance.getBalance();
+  System.out.println(value);
+  balance.credit(3000.00);
+  value=balance.getBalance();
+  System.out.println(value);
+}
+}
